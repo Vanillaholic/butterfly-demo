@@ -251,7 +251,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  url: https://github.com/vanillaholic/butterfly-demo/edit/main/source/
 
 # Related Articles
 related_post:
@@ -317,7 +317,7 @@ aside:
   card_announcement:
     enable: true
     content:
-      如果你在使用中遇到问题，请到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 进行反馈，你也可以加入反馈群（扫码或者点击图片跳转）
+      本人正式搭建了博客，如果想联系我你可以留言，或者添加我的微信（扫码或者点击图片跳转）
       <div class="aside-qrcode" >
       <a href="https://h5.qun.qq.com/s/vTHKfqL0nC" target="_blank">
       <img src="/img/qq.jpg" title="QQ 二维码"></a>
