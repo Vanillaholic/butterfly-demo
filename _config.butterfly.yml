@@ -900,7 +900,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999
   mobile: false
 
