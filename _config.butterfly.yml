@@ -43,19 +43,18 @@ menu:
 # --------------------------------------
 
 code_blocks:
-  # Code block theme: darker / pale night / light / ocean / false
-  theme: light
-  macStyle: false
-  # Code block height limit (unit: px)
-  height_limit: 400
-  word_wrap: false
+# Code Blocks (代码块相关)
+# --------------------------------------
+  highlight_theme: darker # darker / pale night / light / ocean / false
+  highlight_height_limit: false # 单位：像素
+  code_word_wrap: true
+  # 高亮工具栏
+  highlight_theme_macStyle: true # 使用 Mac 风格
+  highlight_copy: true # 复制按钮
+  highlight_lang: true # 显示代码语言
+  highlight_shrink: false # true: 收缩代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
+  highlight_fullpage: true # true: 添加切换全屏的按钮
 
-  # Toolbar
-  copy: true
-  language: true
-  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
-  shrink: false
-  fullpage: true
 
 # Social media links
 # Formal:
@@ -616,9 +615,9 @@ waline:
   bg: /img/comment_bg.png # waline background
   pageview: false
   option:
-    placeholder: '請先查看文檔再詢問。主題如有報錯，請試着解決。提問題時請詳細描述遇到的問題，附上相關的報錯 / 截圖 / 網址。'
+    placeholder: '请先查看文档再询问。请先试着解决报错。提问题请详细描述遇到的问题，附上相应的报错 / 截图 。'
     pageSize: 8
-    lang: zh-TW
+    lang: zh-CN
     requiredFields: ['nick', 'mail']
     turnstileKey: '0x4AAAAAAAEZ30ewaSLVUAOl'
 

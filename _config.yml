@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 邢子晗's Blog
+title: Zane's Blog
 subtitle: Welcome to my blog , Leave a footprint.
 description: 我很丰富,无法简介
-keywords: hexo,butterfly,jerryc,demo,hexo-butterfly,hexo-theme-butterfly
+keywords: hexo,butterfly,demo,hexo-butterfly,code
 author: Zane
 language: zh-CN
 timezone: Asia/Hong_Kong
@@ -63,13 +63,13 @@ post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: 'highlight.js'
-highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-  exclude_languages: ['mermaid']
+# highlight:
+#  line_number: true
+#  auto_detect: false
+#  tab_replace: ''
+#  wrap: true
+#  hljs: false
+#  exclude_languages: ['mermaid']
 prismjs:
   enable: false
   preprocess: true
