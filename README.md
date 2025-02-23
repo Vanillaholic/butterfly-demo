@@ -1,8 +1,8 @@
-## butterfly-demo
+## Blog-demo
 
 这是我采用 hexo 框架，主题 Butterfly 的静态网页文件/ Demo 仓库
 
-fork了原仓库butterfly.js.org，欢迎 PR 完善修改
+fork了原仓库butterfly.js.org(Jerry Wang)，欢迎 PR 完善修改
 
 ### 提交网站 `示例`
 
