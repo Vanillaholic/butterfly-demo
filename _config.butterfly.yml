@@ -245,13 +245,13 @@ reward:
       link: https://buy.stripe.com/3cs6rP6YA91sbbG5kk
       text: Stripe
 
-# Post edit
-# Easily browse and edit blog source code online.
+# 发布编辑
+# 在线编辑博客的发布源代码
 post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/vanillaholic/butterfly-demo/edit/main/source/
+  url: https://github.com/vanillaholic/Blog-demo/edit/main/source/
 
 # Related Articles
 related_post:
