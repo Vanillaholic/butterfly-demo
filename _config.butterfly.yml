@@ -78,10 +78,10 @@ avatar:
 disable_top_img: false
 
 # 此处为首页默认图片
-default_top_img: https://picsum.photod/id/857/6935/4283
+default_top_img: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1h9eoo54hcej21jk10zk5s.jpg
 
 # 此处为首页图片
-index_img: https://picsum.photod/id/857/6935/4283
+index_img: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1h9eoo54hcej21jk10zk5s.jpg
 
 # The banner image of archive page
 archive_img: https://oss.012700.xyz/butterfly/2024/10/archive.jpg
@@ -235,15 +235,15 @@ reward:
   enable: true
   text: 赞助
   QR_code:
-    - img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/wechat.jpg
+    - img: /img/wechat.jpg
       link:
       text: 微信
-    - img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/alipay.jpg
-      link:
-      text: 支付宝
-    - img: https://jsd.012700.xyz/gh/jerryc127/CDN@m2/img/stripe.png
-      link: https://buy.stripe.com/3cs6rP6YA91sbbG5kk
-      text: Stripe
+    #- img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/alipay.jpg
+    #  link:
+    #  text: 支付宝
+    #- img: https://jsd.012700.xyz/gh/jerryc127/CDN@m2/img/stripe.png
+    #  link: https://buy.stripe.com/3cs6rP6YA91sbbG5kk
+    #  text: Stripe
 
 # 发布编辑
 # 在线编辑博客的发布源代码
@@ -319,9 +319,9 @@ aside:
     content:
       本人正式搭建了博客，如果想联系我你可以留言，或者添加我的微信（扫码或者点击图片跳转）
       <div class="aside-qrcode" >
-      <a href="https://h5.qun.qq.com/s/vTHKfqL0nC" target="_blank">
-      <img src="/img/qq.jpg" title="QQ 二维码"></a>
-      <a href="https://t.me/bu2fly" target="_blank">
+      <a href="https://u.wechat.com/MK52i9Top3CnpbBNLCHXzFQ?s=2" target="_blank">
+      <img src="/img/wechat.jpg" title="wechat 二维码"></a>
+      <a href="https://t.me/zanesing" target="_blank">
       <img src="/img/tg.jpg" title="Telegram 二维码"></a>
       </div>
   card_recent_post:
@@ -579,7 +579,7 @@ disqusjs:
   shortname: demo-jerryc-me
   apikey: nrSx8ZhuHvjwDeKauPZ3lMnyLb7iR92BT4wl4AlKG4eJl27jxXlzOeLQ9SJP1RDW
   option:
-    siteName: JerryC
+    siteName: Zane
 
 # Livere
 # https://www.livere.com/
