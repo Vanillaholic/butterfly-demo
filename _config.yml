@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Butterfly
+title: 邢子晗's Blog
 subtitle: A Simple and Card UI Design theme for Hexo
 description: A Simple and Card UI Design theme for Hexo
 keywords: hexo,butterfly,jerryc,demo,hexo-butterfly,hexo-theme-butterfly
-author: Jerry
-language: zh-HK
+author: Zane
+language: zh-CN
 timezone: Asia/Hong_Kong
 
 # URL
@@ -126,8 +126,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:jerryc127/butterfly-demo.git
-  branch: master
+  repo: git@github.com:Vanillaholic/Vanillaholic.github.io.git
+  branch: main
   # other deployer
 
 search:

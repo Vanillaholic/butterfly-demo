@@ -17,24 +17,24 @@ nav:
   fixed: false
 
 menu:
-  首頁: / || fas fa-home
-  頁面||fas fa-compass:
-    歸檔: /archives/ || fas fa-archive
-    標籤: /tags/ || fas fa-tags
-    分類: /categories/ || fas fa-folder-open
-    圖庫: /Gallery/ || fas fa-images
-    說說: /talking/ || fas fa-comment-dots
+  首页: / || fas fa-home
+  页面||fas fa-compass:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    图库: /Gallery/ || fas fa-images
+    说说: /talking/ || fas fa-comment-dots
     示例: /link/ || fas fa-thumbs-up
-  文檔||fas fa-book:
-    🚀 快速開始: /posts/21cfbf15/
-    📑 主題頁面: /posts/dc584b87/
-    🛠 主題配置: /posts/4aa8abbe/
-    ⚔️ 標簽外挂: /posts/ceeb73f/
-    ❓ 主題問答: /posts/98d20436/
-    ⚡️ 進階教程: /posts/4073eda/
-    ✨ 更新日誌: /posts/198a4240/
+  文档||fas fa-book:
+    🚀 快速开始: /posts/21cfbf15/
+    📑 主题页面: /posts/dc584b87/
+    🛠 主题配置: /posts/4aa8abbe/
+    ⚔️ 标签外挂: /posts/ceeb73f/
+    ❓ 主题问答: /posts/98d20436/
+    ⚡️ 进阶教程: /posts/4073eda/
+    ✨ 更新日志: /posts/198a4240/
   留言板: /messageboard/ || fas fa-comment-dots
-  語言||fas fa-language:
+  语言||fas fa-language:
     English: /en/ || fas fa-e
     中文: / || fas fa-c
 
@@ -61,7 +61,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fas fa-envelope: mailto:my@crazywong.com || Email
+  fas fa-envelope: mailto:mrsingorxing@gmail.com || Email
   fas fa-rss: /atom.xml || RSS
 
 # --------------------------------------
@@ -71,17 +71,17 @@ social:
 favicon: /img/favicon.ico
 
 avatar:
-  img: /img/butterfly-icon.png
-  effect: false
+  img: ./img/liu13.png
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
 
-# If the banner of page not setting, it will show the default_top_img
-default_top_img: https://oss.012700.xyz/butterfly/2024/10/index.jpg
+# 此处为首页默认图片
+default_top_img: https://picsum.photod/id/857/6935/4283
 
-# The banner image of index page
-index_img: https://oss.012700.xyz/butterfly/2024/10/index.jpg
+# 此处为首页图片
+index_img: https://picsum.photod/id/857/6935/4283
 
 # The banner image of archive page
 archive_img: https://oss.012700.xyz/butterfly/2024/10/archive.jpg
@@ -134,7 +134,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '頁面沒有找到'
+  subtitle: '页面没有找到'
   background: https://oss.012700.xyz/butterfly/2024/10/butterfly-404.png
 
 post_meta:
@@ -188,8 +188,8 @@ subtitle:
   source: 1
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 永远谦逊&#44;永远学习
+    - Always humble,always learning
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -233,14 +233,14 @@ post_copyright:
 # Sponsor/reward
 reward:
   enable: true
-  text: 贊助
+  text: 赞助
   QR_code:
     - img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/wechat.jpg
       link:
       text: 微信
     - img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/alipay.jpg
       link:
-      text: 支付寶
+      text: 支付宝
     - img: https://jsd.012700.xyz/gh/jerryc127/CDN@m2/img/stripe.png
       link: https://buy.stripe.com/3cs6rP6YA91sbbG5kk
       text: Stripe
@@ -276,8 +276,8 @@ noticeOutdate:
   limit_day: 365
   # Position: top / bottom
   position: top
-  message_prev: 距離上次更新已經過了
-  message_next: 天，文章所描述的內容可能已經發生變化，請留意。
+  message_prev: 距离上次更新已经过了
+  message_next: 天，文章所描述的内容可能已经发生变化，请留意。
 
 # --------------------------------------
 # Footer Settings
@@ -312,17 +312,17 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 主題 GitHub
+      text: 主题 GitHub
       link: https://github.com/jerryc127/hexo-theme-butterfly
   card_announcement:
     enable: true
     content:
-      如果你在使用中遇到問題，請到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 進行反饋，你也可以加入反饋群（掃碼或者點擊圖片跳轉）
+      如果你在使用中遇到问题，请到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 进行反馈，你也可以加入反馈群（扫码或者点击图片跳转）
       <div class="aside-qrcode" >
       <a href="https://h5.qun.qq.com/s/vTHKfqL0nC" target="_blank">
-      <img src="/img/qq.jpg" title="QQ 二維碼"></a>
+      <img src="/img/qq.jpg" title="QQ 二维码"></a>
       <a href="https://t.me/bu2fly" target="_blank">
-      <img src="/img/tg.jpg" title="Telegram 二維碼"></a>
+      <img src="/img/tg.jpg" title="Telegram 二维码"></a>
       </div>
   card_recent_post:
     enable: true
@@ -395,7 +395,7 @@ rightside_bottom:
 translate:
   enable: true
   # The text of a button
-  default: 簡
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 1
   # Time delay
@@ -403,7 +403,7 @@ translate:
   # The text of the button when the language is Simplified Chinese
   msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '简'
 
 # Read Mode
 readmode: true
