@@ -72,7 +72,7 @@ favicon: /img/favicon.ico
 
 avatar:
   img: ./img/liu13.png
-  effect: true
+  effect: false
 
 # Disable all banner images
 disable_top_img: false
@@ -312,8 +312,8 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 主题 GitHub
-      link: https://github.com/jerryc127/hexo-theme-butterfly
+      text: GitHub 主页
+      link: https://github.com/vanillaholic
   card_announcement:
     enable: true
     content:
