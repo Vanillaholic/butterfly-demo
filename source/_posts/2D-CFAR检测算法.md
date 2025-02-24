@@ -26,21 +26,21 @@ CFAR检测算法属于信号检测中的自动检测算法，在雷达信号处�
 
 一维CFAR检测流程图如下所示
 
-![一维CFAR检测图](./image/CFAR/1d-cafr.png){width=67%}
+![一维CFAR检测图](./image/CFAR/1d-cafr.png)
 
 ## 二、距离多普勒矩阵（Range-Doppler Matrix，RDM)
 
 在检测过程中，除了要知道到目标的距离信息以外，还要知道目标的速度信息，因此1D-CFAR不再满足我们的要求，而是需要采用2D-CAFR。而2D-CAFR处理的对象就是距离多普勒矩阵（Range-Doppler Matrix），RDM的形成过程如下所示
 
-![RDM图的形成](./image/CFAR/RDM.png){width=60%}
+![RDM图的形成](./image/CFAR/RDM.png)
 
 2D-CFAR是对两个维度同时检测，
 
-![第一种2D-CFAR检测](./image/CFAR/2d-cfar.png){width=60%}
+![第一种2D-CFAR检测](./image/CFAR/2d-cfar.png)
 
 还有一种方法是两次CFAR，即先对某一个维度做一次，然后又对另一个维度做一次，总共两次CFAR。比如先对速度维做一次CA-CFAR，然后对距离维做一次OS-CFAR，如图7所示。这样做的目的可以减少计算量，节约计算时间。因为当检测出具有速度的目标后，只针对动目标检测要比检测全部元素点要快速。
 
-![第二种2D-CFAR检测](./image/CFAR/2d-cfar2.png){width=50%}
+![第二种2D-CFAR检测](./image/CFAR/2d-cfar2.png)
 
 ## 三、二维CFAR（2D-CFAR）算法原理与仿真
 
@@ -50,7 +50,7 @@ CFAR检测算法属于信号检测中的自动检测算法，在雷达信号处�
 
 上述过程将生成一个阈值块，如图中绿色和红色组成的区域。因为 CUT 不能位于RDM谱矩阵的边缘，故而该阈值块小于距离多普勒图， 因此存在一部分点不会被检测到，但需要对这部分未检测到的点进行处理，关于这个问题后面会讨论。
 
-![2D-CFAR原理](./image/CFAR/image-20250224175810961.png){width=50%}
+![2D-CFAR原理](./image/CFAR/image-20250224175810961.png)
 
 ## 四、仿真
 

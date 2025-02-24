@@ -46,7 +46,8 @@ code_blocks:
 # Code Blocks (代码块相关)
 # --------------------------------------
    # 代码高亮主题：darker / pale night / light / ocean / false
-  highlight_theme: darker 
+  highlight_theme: mac 
+  macStyle: true                    # 使用 Mac 风格
   # 高度限制（单位：像素）
   highlight_height_limit: false 
   # 代码自动换行
@@ -842,7 +843,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size:
+  global_font_size: 19px
   code_font_size:
   font_family:
   code_font_family:
