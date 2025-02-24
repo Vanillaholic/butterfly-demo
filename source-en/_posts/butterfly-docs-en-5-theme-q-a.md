@@ -11,7 +11,7 @@ categories:
   - EN
 keywords: 'hexo,butterfly,theme,doc,教程,文檔,hexo-butterfly'
 description:
-top_img:
+top_img: https://img3.wallspic.com/crops/2/9/8/1/7/171892/171892-lu_xing-cheng_shi-li_cheng_bei-cheng_shi_jing_guan-3840x2160.jpg
 cover: https://jsd.012700.xyz/gh/jerryc127/CDN@m2/img/butterfly-docs-en-theme-question.png
 abbrlink: butterfly-docs-en-theme-question
 series: docs

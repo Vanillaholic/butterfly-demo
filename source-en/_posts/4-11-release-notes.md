@@ -10,7 +10,7 @@ categories: Release Notes
 keywords: 'hexo,butterfly,更新日誌,Release Notes,changelog,released,主題,doc,教程,文件'
 description:
 top_img:
-cover: https://oss.012700.xyz/butterfly/2023/11/butterfly-4.11.png
+cover: https://img3.wallspic.com/crops/2/9/8/1/7/171892/171892-lu_xing-cheng_shi-li_cheng_bei-cheng_shi_jing_guan-3840x2160.jpg
 abbrlink: 4-11-release-notes
 ---
 

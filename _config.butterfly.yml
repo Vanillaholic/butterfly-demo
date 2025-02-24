@@ -6,14 +6,14 @@
 # --------------------------------------
 
 # --------------------------------------
-# Navigation Settings
+# 导航设置
 # --------------------------------------
 
 nav:
-  # Navigation bar logo image
-  logo:
+  #导航栏logo图像
+  logo: ./img/liu13.png
   display_title: true
-  # Whether to fix navigation bar
+  # 是否固定导航栏
   fixed: false
 
 menu:
@@ -45,26 +45,28 @@ menu:
 code_blocks:
 # Code Blocks (代码块相关)
 # --------------------------------------
-  highlight_theme: darker # darker / pale night / light / ocean / false
-  highlight_height_limit: false # 单位：像素
+   # 代码高亮主题：darker / pale night / light / ocean / false
+  highlight_theme: darker 
+  # 高度限制（单位：像素）
+  highlight_height_limit: false 
+  # 代码自动换行
   code_word_wrap: true
   # 高亮工具栏
-  highlight_theme_macStyle: true # 使用 Mac 风格
-  highlight_copy: true # 复制按钮
-  highlight_lang: true # 显示代码语言
-  highlight_shrink: false # true: 收缩代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
-  highlight_fullpage: true # true: 添加切换全屏的按钮
+  highlight_theme_macStyle: true    # 使用 Mac 风格
+  highlight_copy: true              # 显示复制按钮.
+  highlight_lang: true              # 显示代码语言
+  highlight_shrink: false           # 代码块收缩模式：true: 收缩代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
+  highlight_fullpage: true          # 添加切换全屏的按钮 true
 
 
-# Social media links
-# Formal:
+# 社交媒体链接
+# 格式:
 #   icon: link || the description || color
 social:
   fas fa-envelope: mailto:mrsingorxing@gmail.com || Email
-  fas fa-rss: /atom.xml || RSS
-
+  fas fa-rss: /atom.xml || 订阅
 # --------------------------------------
-# Image Settings
+# 图片设置
 # --------------------------------------
 
 favicon: /img/favicon.ico
@@ -73,85 +75,86 @@ avatar:
   img: ./img/liu13.png
   effect: false
 
-# Disable all banner images
+# 禁用所有顶部横幅图片
 disable_top_img: false
 
 # 此处为首页默认图片
-default_top_img: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1h9eoo54hcej21jk10zk5s.jpg
+default_top_img: https://img3.wallspic.com/crops/2/9/8/1/7/171892/171892-lu_xing-cheng_shi-li_cheng_bei-cheng_shi_jing_guan-3840x2160.jpg
 
 # 此处为首页图片
-index_img: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1h9eoo54hcej21jk10zk5s.jpg
+index_img: https://img3.wallspic.com/crops/2/9/8/1/7/171892/171892-lu_xing-cheng_shi-li_cheng_bei-cheng_shi_jing_guan-3840x2160.jpg
 
-# The banner image of archive page
+# 归档页横幅图片 
 archive_img: https://oss.012700.xyz/butterfly/2024/10/archive.jpg
 
-# Note: tag page, not tags page
+# 标签页横幅配置（单个标签页，非标签列表页）
+# 格式：
+#  - 标签名: 图片URL
 tag_img: https://oss.012700.xyz/butterfly/2024/10/tag.png
 
-# The banner image of tag page, you can set the banner image for each tag
-# Format:
-#  - tag name: xxxxx
+
+# 标签页横幅图片配置（可为每个标签单独设置）
+# 格式：
+#  - 标签名称: 图片地址
 tag_per_img:
 
-# Note: category page, not categories page
+# 分类页横幅配置（单个分类页，非分类列表页）  
 category_img: https://oss.012700.xyz/butterfly/2024/10/category.jpg
+# 格式：
+#  - 分类名: 图片URL
 
-# The banner image of category page, you can set the banner image for each category
-# Format:
-#  - category name: xxxxx
+# 分类页横幅图片配置（可为每个分类单独设置）
+# 格式：
+#  - 分类名称: 图片地址
 category_per_img:
 
-# The background image of footer
+# 页脚背景图片开关
 footer_img: true
 
-# Website Background
-# Can set it to color or image url
+# 网页背景
+# 可设置为颜色值或图片链接
 background:
 
-cover:
-  # Disable the cover or not
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
-  # When cover is not set, the default cover is displayed
-  default_cover:
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-1.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-2.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-3.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-4.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-5.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-6.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-7.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-8.png
-    - https://oss.012700.xyz/butterfly/2024/11/butterfly-docs-changelog-cover-9.png
 
-# Replace Broken Images
+# 文章封面配置
+cover:
+  index_enable: true            # 首页启用封面
+  aside_enable: true            # 侧边栏启用封面
+  archives_enable: true         # 归档页启用封面
+  # 默认封面（未设置时随机选择）
+  default_cover:
+    - https://img3.wallspic.com/crops/2/9/8/1/7/171892/171892-lu_xing-cheng_shi-li_cheng_bei-cheng_shi_jing_guan-3840x2160.jpg
+
+
+# 图片失效替换配置
 error_img:
+  # 友链页面404图片
   flink: /img/friend_404.gif
+  # 文章页面404图片
   post_page: /img/404.jpg
 
-# A simple 404 page
+# 404 页面
 error_404:
   enable: true
   subtitle: '页面没有找到'
   background: https://oss.012700.xyz/butterfly/2024/10/butterfly-404.png
 
 post_meta:
-  # Home Page
+  # 首页
   page:
-    # Choose: created / updated / both
+    # 选择：创建时间 / 更新时间 / 两者都显示
     date_type: created
-    # Choose: date / relative
+    # 选择：绝对日期 / 相对时间
     date_format: relative
     categories: true
     tags: false
     label: true
   post:
-    # Choose: left / center
+    # 选择：左侧对齐 / 居中对齐
     position: left
-    # Choose: created / updated / both
+    # 选择：创建时间 / 更新时间 / 两者都显示
     date_type: created
-    # Choose: date / relative
+    # 选择：绝对日期 / 相对时间
     date_format: relative
     categories: true
     tags: true
@@ -161,50 +164,51 @@ post_meta:
 # Index page settings
 # --------------------------------------
 
-# The top_img settings of home page
-# default: top img - full screen, site info - middle
-# The position of site info, eg: 300px/300em/300rem/10%
+# 首页顶部图片设置
+# 默认：顶部图片全屏显示，站点信息居中
+# 配置站点信息垂直位置（示例值：300px/300em/300rem/10%）
 index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem
+# 配置顶部图片高度（示例值：300px/300em/300rem）
 index_top_img_height:
 
-# The subtitle on homepage
+# 首页的子标题
 subtitle:
   enable: true
-  # Typewriter Effect
+  # Typewriter 特效
   effect: true
-  # Customize typed.js
+  # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
     loop: true
-  # Source - Call the third-party service API (Chinese only)
-  # It will show the source first, then show the content of sub
-  # Choose: false/1/2/3
-  # false - disable the function
-  # 1 - hitokoto.cn
-  # 2 - yijuzhan.com
-  # 3 - jinrishici.com
+  # 数据源 - 调用第三方API接口（仅中文）
+  # 首行显示来源名称，次行显示实际内容
+  # 可选值: false/1/2/3
+  # false: 禁用此功能
+  # 1: 一言网（hitokoto.cn）
+  # 2: 一句子（yijuzhan.com）
+  # 3: 今日诗词（jinrishici.com）
   source: 1
-  # If you close the typewriter effect, the subtitle will only show the first line of sub
+  # 如果关闭typewriter 特效, 子标题将只会显示sub的第一行.
   sub:
     - 永远谦逊&#44;永远学习
     - Always humble,always learning
 
-# Article layout on the homepage
-# 1: Cover on the left, info on the right
-# 2: Cover on the right, info on the left
-# 3: Cover and info alternate between left and right
-# 4: Cover on top, info on the bottom
-# 5: Info displayed on the cover
-# 6: Masonry layout - Cover on top, info on the bottom
-# 7: Masonry layout - Info displayed on the cover
+# 首页文章布局设置
+# 1: 封面左对齐，内容区右对齐
+# 2: 封面右对齐，内容区左对齐
+# 3: 封面与内容区左右交替排列（默认）
+# 4: 封面顶部显示，内容区底部显示
+# 5: 内容信息直接显示在封面上
+# 6: 瀑布流布局 - 封面在上，内容在下
+# 7: 瀑布流布局 - 内容直接显示在封面上
+
 index_layout: 3
 
-# Display the article introduction on homepage
-# 1: description
-# 2: both (if the description exists, it will show description, or show the auto_excerpt)
-# 3: auto_excerpt (default)
-# false: do not show the article introduction
+# 首页文章摘要显示设置
+# 1: 仅显示描述(description)
+# 2: 优先显示描述，若无描述则显示自动摘要
+# 3: 自动摘要(默认)
+# false: 不显示文章摘要
 index_post_content:
   method: 3
   length: 500 # if you set method to 2 or 3, the length need to config
@@ -229,12 +233,12 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# Sponsor/reward
+# 赞助
 reward:
   enable: true
   text: 赞助
   QR_code:
-    - img: /img/wechat.jpg
+    - img: /img/wechat_receive_payment.png
       link:
       text: 微信
     #- img: https://jsd.012700.xyz/gh/jerryc127/CDN/Photo/alipay.jpg
@@ -252,10 +256,10 @@ post_edit:
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url: https://github.com/vanillaholic/Blog-demo/edit/main/source/
 
-# Related Articles
+# 相关文章
 related_post:
-  enable: true
-  # Number of posts displayed
+  enable: false
+  # 显示文章数目
   limit: 6
   # Choose: created / updated
   date_type: created
@@ -316,7 +320,7 @@ aside:
   card_announcement:
     enable: true
     content:
-      本人正式搭建了博客，如果想联系我你可以留言，或者添加我的微信（扫码或者点击图片跳转）
+      如果想联系我你可以留言，或者添加我的微信（扫码或者点击图片跳转）
       <div class="aside-qrcode" >
       <a href="https://u.wechat.com/MK52i9Top3CnpbBNLCHXzFQ?s=2" target="_blank">
       <img src="/img/wechat.jpg" title="wechat 二维码"></a>
